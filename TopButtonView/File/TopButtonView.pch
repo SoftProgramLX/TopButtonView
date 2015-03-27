@@ -1,0 +1,19 @@
+//
+//  TopButtonView.pch
+//  TopButtonView
+//
+//  Created by apple on 15/3/27.
+//  Copyright (c) 2015年 apple. All rights reserved.
+//
+
+#ifndef TopButtonView_TopButtonView_pch
+#define TopButtonView_TopButtonView_pch
+
+// 颜色
+#define LXColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// 屏幕宽与高
+#define kMainScreenWidth  ([UIScreen mainScreen].applicationFrame.size.width)
+#define kMainScreenHeight (([UIScreen mainScreen].applicationFrame.size.height)+20)
+
+#endif
