@@ -30,7 +30,7 @@
     [self.view addSubview:topView];
     
     //创建用于放置顶部滚动按钮的view
-    NSArray *buttonTitleArr = @[@"观点", @"纸条", @"互动", @"宝箱"];
+    NSArray *buttonTitleArr = @[@"电影", @"电视剧", @"综艺", @"体育"];
     topButtonView = [[LXTopButtonScrollView alloc] initWithFrame:CGRectMake(18, 0, kMainScreenWidth - 36, 44) andTitleArray:buttonTitleArr andDelegate:self];
     [topView addSubview:topButtonView];
     
